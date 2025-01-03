@@ -3,7 +3,7 @@
 ### Lists ###
 
 # Definición
-print("                            ")
+
 print("----------------------------")
 print('- Formas de Definir Listas -')
 print("----------------------------")
@@ -15,32 +15,30 @@ print("                            ")
 my_list = list()
 my_other_list = []
 
-print('- print(len(my_list))      ')
+print("------------------------")
+print('- print(len(my_list))  -')
+print("------------------------")
 print(len(my_list))
 print("Actualmente la lista esta vacia ")
-
+print("                                ")
 my_list = [35, 24, 62, 52, 30, 30, 17]
 
-print("                                 ")
+
 print("---------------------------------")
 print("- Imprimir por pantalla my_list -")
 print("---------------------------------")
-print("                                 ")
 print(my_list)
 print("                                      ")
 print("--------------------------------------")
 print("- Imprimir por pantalla tamaño lista -")
 print("--------------------------------------")
-print("                                      ")
 print(len(my_list))
 print("                                      ")
-
 my_other_list = [35, 1.77, "Brais", "Moure"]
 
 print("--------------------------------------")
 print("-        De que tipo es?             -")
 print("--------------------------------------")
-print("                                      ")
 print(type(my_list))
 print(type(my_other_list))
 
@@ -70,9 +68,9 @@ print(my_list.count(30))
 # print(my_other_list[-5]) IndexError: list index out of range
 print('-')
 
-print("---------------------------------------")
-print('-  Posición del elemento introducido  -')
-print("---------------------------------------")
+print("-----------------------------------------------------------------")
+print('-  Posición del elemento introducido  -'+"my_other_list.index(35)  -")
+print("-----------------------------------------------------------------")
 print(my_other_list.index(35))
 
 #my_other_list = [35, 1.77, "Brais", "Moure"]
@@ -95,15 +93,24 @@ print("---------------------------------------------")
 print("-    Contenacion |my_list + my_other_list|  -")
 print("---------------------------------------------")
 print(my_list + my_other_list)
+print("                                             ")
 #print(my_list - my_other_list)
 
 # Creación, inserción, actualización y eliminación
-print("                                       ")
+print("-------------------------------------------------------------")
+print("-  Insertar Elemento a la lista (al final del indice)       -")
+print("-------------------------------------------------------------")
 my_other_list.append("MoureDev")
 print(my_other_list)
+print("                                        ")
 
+#my_other_list = [35, 1.77, "Brais", "Moure,MoureDev"]
+print("----------------------------------------")
+print("-  Insertar Elemento a la lista        -")
+print("----------------------------------------")
 my_other_list.insert(1, "Rojo")
 print(my_other_list)
+print("                                        ")
 
 my_other_list[1] = "Azul"
 print(my_other_list)
