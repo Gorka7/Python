@@ -5,10 +5,10 @@
 # Definición
 
 print("----------------------------")
-print('- Formas de Definir Listas -')
+print('- Formas de Definir LISTAS -')
 print("----------------------------")
-print('- my_list = list()         -')
-print('- my_other_list = []       -')
+print('-     my_list = list()     -')
+print('-     my_other_list = []   -')
 print("----------------------------")
 print("                            ")
 
@@ -37,7 +37,7 @@ print("                                      ")
 my_other_list = [35, 1.77, "Brais", "Moure"]
 
 print("--------------------------------------")
-print("-        De que tipo es?             -")
+print("-          De que tipo es?           -")
 print("--------------------------------------")
 print(type(my_list))
 print(type(my_other_list))
@@ -105,17 +105,24 @@ print(my_other_list)
 print("                                        ")
 
 #my_other_list = [35, 1.77, "Brais", "Moure,MoureDev"]
-print("----------------------------------------")
-print("-  Insertar Elemento a la lista        -")
-print("----------------------------------------")
-my_other_list.insert(1, "Rojo")
+print("---------------------------------------------------------------")
+print("-  Insertar Elemento a la lista - Indice,Elemento - (1, Rojo) -")
+print("---------------------------------------------------------------")
+my_other_list.insert(1, "Rojo")   
 print(my_other_list)
-print("                                        ")
 
+print("                                        ")
+print("------------------------------------------------------------------")
+print("-  Modificar Elemento a la lista - my_other_list[1] = Azul       -")
+print("------------------------------------------------------------------")
 my_other_list[1] = "Azul"
 print(my_other_list)
 
-my_other_list.remove("Azul")
+print("                                        ")
+print("--------------------------------------------------------------------")
+print("-  Elimimar Elemento de la lista - my_other_list.remove('Azul')    -")
+print("--------------------------------------------------------------------")
+my_other_list.remove('Azul')
 print(my_other_list)
 
 print('--')
