@@ -64,7 +64,6 @@ print(language_slice) #o
 language_slice = language[0:6:2]
 print(language_slice) #
 
-#Python
 # Reverse
 
 
@@ -92,3 +91,4 @@ print(language.lower())
 print(language.lower().isupper())
 print(language.startswith("Py"))
 print("Py" == "py")  # No es lo mismo
+print("-")
