@@ -4,12 +4,20 @@
 
 #While
 
-print("--------------")
-print("-                 While    -")
-print("-    my_condition = 0")
-print("-    while my_condition < 10:")
-print("-        print(my_condition) -")
-print("--------------")
+print("----------------------------------------------------------")
+print("-                         While                          -")
+print("-                                                        -")
+print("-    my_condition = 0                                    -")
+print("-                                                        -")
+print("-    while my_condition < 10:                            -")
+print("-        print(my_condition)                             -")
+print("-        my_condition += 2                               -")
+print("-    else:                                               -")
+print("-        print('Mi condición es mayor o igual que 10')   -")
+print("-                                                        -")
+print("-    print('La ejecución continúa')                      -")
+print("----------------------------------------------------------")
+
 
 my_condition = 0
 
@@ -22,6 +30,19 @@ else:  # Es opcional
 print("La ejecución continúa")
 
 
+print("----------------------------------------------------------")
+print("-                        While-2                         -")
+print("-                                                        -")
+print("-    while my_condition < 20:                            -")
+print("-        my_condition += 1                               -")
+print("-        if my_condition == 15:                          -")
+print("-        print('Se detiene la ejecución')                -")
+print("-           break                                        -")
+print("-        print(my_condition)                             -")
+print("-                                                        -")
+print("-    print('La ejecución continúa')                      -")
+print("----------------------------------------------------------")
+
 while my_condition < 20:
     my_condition += 1
     if my_condition == 15:
@@ -32,11 +53,31 @@ while my_condition < 20:
 print("La ejecución continúa")
 
 
+print("----------------------------------------------------------")
+print("-                  For  (Con Listas)                     -")
+print("-                                                        -")
+print("-    my_list = [35, 24, 62, 52, 30, 30, 17]              -")
+print("-                                                        -")
+print("-    for elemento in my_list:                            -")
+print("-        print(elemento)                                 -")
+print("-                                                        -")
+print("----------------------------------------------------------")
 
 my_list = [35, 24, 62, 52, 30, 30, 17]
 
 for elemento in my_list:
     print(elemento)
+
+print("----------------------------------------------------------")
+print("-                  For 2 (Con Tuplas)                    -")
+print("-                                                        -")
+print("-    my_tuple = (35, 1.77, 'Brais', 'Moure', 'Brais')    -")
+print("-                                                        -")
+print("-    for elemento in my_my_tuple:                        -")
+print("-        print(elemento)                                 -")
+print("-                                                        -")
+print("----------------------------------------------------------")
+
 
 my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
 
