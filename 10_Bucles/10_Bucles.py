@@ -4,6 +4,13 @@
 
 #While
 
+print("--------------")
+print("-                 While    -")
+print("-    my_condition = 0")
+print("-    while my_condition < 10:")
+print("-        print(my_condition) -")
+print("--------------")
+
 my_condition = 0
 
 while my_condition < 10:
@@ -14,6 +21,7 @@ else:  # Es opcional
 
 print("La ejecución continúa")
 
+
 while my_condition < 20:
     my_condition += 1
     if my_condition == 15:
@@ -23,12 +31,12 @@ while my_condition < 20:
 
 print("La ejecución continúa")
 
-# For
+
 
 my_list = [35, 24, 62, 52, 30, 30, 17]
 
-for element in my_list:
-    print(element)
+for elemento in my_list:
+    print(elemento)
 
 my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
 
